@@ -2,9 +2,9 @@
 
 var plants = new List<Plants>
 {
-    new AppleTree("Boskoop", ageInYears: 5),
-    new Pumpkin("Hokkaido", ageInYears: 1),
-    new ChestnutTree("Maroni", ageInYears: 12)
+    new AppleTree("Boskoop", alter: 5),
+    new Pumpkin("Hokkaido", alter: 1),
+    new ChestnutTree("Maroni", alter: 12)
 };
 
 foreach (var plant in plants)
